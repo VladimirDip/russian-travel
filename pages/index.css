@@ -4,7 +4,7 @@
 
 
 /*Page*/
-@import url('../blocks/body');
+@import url('../blocks/body/body.css');
 
 /*Wrapper-outer*/
 @import url('../blocks/wrapper-outer/wrapper-outer.css');
