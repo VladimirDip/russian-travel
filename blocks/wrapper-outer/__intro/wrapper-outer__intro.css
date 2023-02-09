@@ -1,0 +1,17 @@
+.wrapper-outer__intro {
+    margin-top: 92px;
+}
+
+@media (max-width: 1024px) {
+    .wrapper-outer__intro {
+        margin-top: calc(88px + 4 * ((100vw - 768px) / 256));
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper-outer__intro {
+        margin-top: calc(64px + 24 * ((100vw - 320px) / 448));
+        padding-right: calc(16px + 8 * ((100vw - 320px) / 448));
+        padding-left: calc(16px + 8 * ((100vw - 320px) / 448));
+    }
+}

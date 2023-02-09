@@ -1,0 +1,10 @@
+.wrapper-outer__cover {
+    margin-top: 92px;
+}
+
+@media (max-width: 768px) {
+
+    .wrapper-outer__cover {
+        margin-top: calc(66px + 24 * ((100vw - 320px) / 448));
+    }
+}

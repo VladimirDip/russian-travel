@@ -1,0 +1,6 @@
+.header {
+    max-height: calc(42px + 10 * ((100vw - 320px) / 448));
+  }ms: center;
+  max-height: 52px;
+  box-sizing: border-box;
+}
