@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+    .intro__title {
+        font-size: calc(32px + 22 * ((100vw - 320px) / 448));
+        line-height: calc(35px + 23 * ((100vw - 320px) / 448));
+    }
+}
