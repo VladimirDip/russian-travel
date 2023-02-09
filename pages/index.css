@@ -6,10 +6,24 @@
 /*Page*/
 @import url('../blocks/body');
 
+/*Wrapper-outer*/
+@import url('../blocks/wrapper-outer/wrapper-outer.css');
+@import url('../blocks/wrapper-outer/__cover/wrapper-outer__cover.css');
+@import url('../blocks/wrapper-outer/__footer/wrapper-outer__footer.css');
+@import url('../blocks/wrapper-outer/__header/wrapper-outer__header.css');
+@import url('../blocks/wrapper-outer/__intro/wrapper-outer__intro.css');
+@import url('../blocks/wrapper-outer/__lead/wrapper-outer__lead.css');
+@import url('../blocks/wrapper-outer/__photo-grid/wrapper-outer__photo-grid.css');
+@import url('../blocks/wrapper-outer/__places/wrapper-outer__places.css');
+/*Header*/
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__languages/header__languages.css');
+@import url('../blocks/header/__languages-link/_active/header__languages-link_active.css');
+@import url('../blocks/header/__logo/header__logo.css');
+/*Lead*/
+@import url('../blocks/lead/lead.css');
+@import url('../blocks/lead/__title');
+@import url('../blocks/lead/__subtitle/lead__subtitle.css');
+@import url('../blocks/lead/__image/lead__image.css');
+@import url('../blocks/lead/__caption/lead__caption.css');
 
-
-/*Vendor*/
-
-
-
-/*Vendor*/
