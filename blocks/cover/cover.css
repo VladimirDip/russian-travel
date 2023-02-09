@@ -1,0 +1,55 @@
+.cover {
+    min-height: 740px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-image: url("../../images/cover_image-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+.cover::after {
+    content: "";
+    background-color: rgba(42, 44, 47, 0.3);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    transition: ease-in-out 0.5s;
+}
+.cover:hover::after {
+    background-color: rgba(42, 44, 47, 0.8);
+}
+
+@media (max-width: 1280px) {
+    .cover {
+        min-height: calc(640px + 100 * ((100vw - 1024px) / 256));
+    }
+}
+
+@media (max-width: 1024px) {
+    .cover {
+        min-height: calc(480px + 160 * ((100vw - 768px) / 256));
+        box-sizing: border-box;
+        min-width: 100vw;
+        position: relative;
+        left: calc((24px + 24 * (100vw - 768px) / 256) / -1);
+        width: 100%;
+        overflow-y: hidden;
+    }
+}
+
+@media (max-width: 768px) {
+    .cover {
+        min-height: calc(200px + 280 * ((100vw - 320px) / 448));
+        left: calc((16px + 8 * (100vw - 320px) / 448) / -1);
+    }
+}
