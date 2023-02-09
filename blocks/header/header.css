@@ -1,6 +1,13 @@
 .header {
-    max-height: calc(42px + 10 * ((100vw - 320px) / 448));
-  }ms: center;
-  max-height: 52px;
-  box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 52px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .header {
+        max-height: calc(42px + 10 * ((100vw - 320px) / 448));
+    }
 }

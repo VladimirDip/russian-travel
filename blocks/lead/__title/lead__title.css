@@ -1,0 +1,16 @@
+.lead__title {
+    margin: 0 0 32px;
+    max-width: 720px;
+    font-family: "Inter Black", "sans-serif";
+    line-height: 104.1666666667%;
+    font-size: 96px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .lead__title {
+        font-size: calc(40px + 56 * ((100vw - 320px) / 448));
+        line-height: calc(44px + 56 * ((100vw - 320px) / 448));
+        margin-bottom: calc(16px + 16 * ((100vw - 320px) / 448));
+    }
+}
