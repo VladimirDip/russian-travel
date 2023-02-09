@@ -1,0 +1,14 @@
+.footer__link {
+    text-decoration: none;
+    color: inherit;
+    font-family: "Inter Regular", "sans-serif";
+    font-size: 16px;
+    line-height: 1.12;
+}
+
+@media (max-width: 768px) {
+    .footer__link {
+        font-size: calc(24px + -8 * ((100vw - 320px) / 448));
+        line-height: calc(24px + -8 * ((100vw - 320px) / 448));
+    }
+}

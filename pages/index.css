@@ -1,11 +1,8 @@
 /*Vendor*/
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts/fonts.css');
-
-
 /*Page*/
 @import url('../blocks/body/body.css');
-
 /*Wrapper-outer*/
 @import url('../blocks/wrapper-outer/wrapper-outer.css');
 @import url('../blocks/wrapper-outer/_wide/wrapper-outer_wide.css');
@@ -51,6 +48,11 @@
 @import url('../blocks/cover/__link/cover__link.css');
 @import url('../blocks/cover/__title/cover__title.css');
 @import url('../blocks/cover/__subtitle/cover__subtitle.css');
+/*Footer*/
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__items/footer__items.css');
+@import url('../blocks/footer/__link/footer__link.css');
+@import url('../blocks/footer/__copyright/footer__copyright.css');
 
 
 
