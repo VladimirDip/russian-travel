@@ -1,6 +1,10 @@
 .footer__copyright {
-    margin: 0;
+    margin: 0 0 0 15px;
     padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
     font-family: "Inter Regular", "sans-serif";
     font-size: 14px;
     line-height: 1.12;
@@ -9,5 +13,11 @@
 @media (max-width: 768px) {
     .footer__copyright {
         line-height: calc(14px + 0 * ((100vw - 320px) / 448));
+    }
+}
+
+@media (max-width: 320px) {
+    .footer__copyright {
+        margin: 0;
     }
 }

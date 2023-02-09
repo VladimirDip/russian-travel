@@ -4,7 +4,7 @@
 }
 
 @media (max-width: 768px) {
-  .wrapper-outer__cover {
-    margin-top: calc(66px + 24 * ((100vw - 320px) / 448));
+  .wrapper-outer__footer {
+    margin-top: calc(64px + 24 * ((100vw - 320px) / 448));
   }
 }

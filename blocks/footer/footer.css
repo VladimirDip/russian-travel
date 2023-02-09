@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 0 16px;
 }
 
 @media (max-width: 626px) {
