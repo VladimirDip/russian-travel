@@ -3,17 +3,7 @@
 @import url('../vendor/fonts/fonts.css');
 /*Page*/
 @import url('../blocks/body/body.css');
-/*Wrapper-outer*/
-@import url('../blocks/wrapper-outer/wrapper-outer.css');
-@import url('../blocks/wrapper-outer/_wide/wrapper-outer_wide.css');
-@import url('../blocks/wrapper-outer/_padding/wrapper-outer_padding_zero.css');
-@import url('../blocks/wrapper-outer/__header/wrapper-outer__header.css');
-@import url('../blocks/wrapper-outer/__lead/wrapper-outer__lead.css');
-@import url('../blocks/wrapper-outer/__intro/wrapper-outer__intro.css');
-@import url('../blocks/wrapper-outer/__photo-grid/wrapper-outer__photo-grid.css');
-@import url('../blocks/wrapper-outer/__places/wrapper-outer__places.css');
-@import url('../blocks/wrapper-outer/__cover/wrapper-outer__cover.css');
-@import url('../blocks/wrapper-outer/__footer/wrapper-outer__footer.css');
+
 /*Header*/
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__logo/header__logo.css');
@@ -53,8 +43,17 @@
 @import url('../blocks/footer/__items/footer__items.css');
 @import url('../blocks/footer/__link/footer__link.css');
 @import url('../blocks/footer/__copyright/footer__copyright.css');
-
-
+/*Wrapper-outer*/
+@import url('../blocks/wrapper-outer/wrapper-outer.css');
+@import url('../blocks/wrapper-outer/_wide/wrapper-outer_wide.css');
+@import url('../blocks/wrapper-outer/_padding/wrapper-outer_padding_zero.css');
+@import url('../blocks/wrapper-outer/__header/wrapper-outer__header.css');
+@import url('../blocks/wrapper-outer/__lead/wrapper-outer__lead.css');
+@import url('../blocks/wrapper-outer/__intro/wrapper-outer__intro.css');
+@import url('../blocks/wrapper-outer/__photo-grid/wrapper-outer__photo-grid.css');
+@import url('../blocks/wrapper-outer/__places/wrapper-outer__places.css');
+@import url('../blocks/wrapper-outer/__cover/wrapper-outer__cover.css');
+@import url('../blocks/wrapper-outer/__footer/wrapper-outer__footer.css');
 
 
 
