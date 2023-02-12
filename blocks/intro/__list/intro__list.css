@@ -1,9 +1,15 @@
 .intro__list {
   list-style-type: none;
-  font-family: "Inter Bold", "sans-serif";
+  font-family: "Inter", Arial, "sans-serif";
+  font-weight: 700;
   font-size: 12px;
   line-height: 18px;
   padding: 0;
   margin: 33px 0 0;
 }
 
+@media (max-width: 320px) {
+  .intro__list {
+    margin: 34px 0 0;
+  }
+}

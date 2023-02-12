@@ -43,7 +43,6 @@
         position: relative;
         left: calc((24px + 24 * (100vw - 768px) / 256) / -1);
         width: 100%;
-        overflow-y: hidden;
     }
 }
 

@@ -1,7 +1,8 @@
 .lead__title {
     margin: 0 0 32px;
     max-width: 720px;
-    font-family: "Inter Black", "sans-serif";
+    font-family: "Inter", Arial,"sans-serif";
+    font-weight: 900;
     line-height: 104.1666666667%;
     font-size: 96px;
     text-align: center;

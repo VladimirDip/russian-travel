@@ -3,11 +3,13 @@
     flex-direction: column;
     gap: 12px 0;
     align-self: end;
+    /*justify-content: space-between;*/
 }
 
+/*
 @media (max-width: 320px) {
     .places__website {
         padding-left: 16px;
         padding-right: 16px;
     }
-}
+}*/

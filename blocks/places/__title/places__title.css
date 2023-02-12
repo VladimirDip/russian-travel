@@ -1,6 +1,7 @@
 .places__title {
     margin: 0;
-    font-family: "Inter Black", "sans-serif";
+    font-family: "Inter", Arial, "sans-serif";
+    font-weight: 900;
     font-size: 72px;
     line-height: 76px;
 }
@@ -9,6 +10,7 @@
     .places__title {
         font-size: calc(42px + 30 * ((100vw - 768px) / 256));
         line-height: calc(46px + 30 * ((100vw - 768px) / 256));
+        max-width: 340px;
     }
 }
 
@@ -18,10 +20,11 @@
         line-height: calc(35px + 11 * ((100vw - 320px) / 448));
     }
 }
+/*
 
 @media (max-width: 320px) {
     .places__title {
         padding-left: 16px;
         padding-right: 16px;
     }
-}
+}*/

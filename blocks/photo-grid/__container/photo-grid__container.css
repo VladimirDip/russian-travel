@@ -1,5 +1,6 @@
 .photo-grid__container {
     padding: 0;
+    margin: 0;
     list-style-type: none;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
@@ -12,12 +13,14 @@
     .photo-grid__container {
         grid-template-rows: repeat(auto-fill, 225px);
         grid-auto-rows: 225px;
+        grid-gap: 14px;
     }
 }
 @media (max-width: 768px) {
     .photo-grid__container {
         grid-template-rows: repeat(auto-fill, 264px);
         grid-auto-rows: 264px;
+        grid-gap: 16px;
     }
 }
 @media (max-width: 320px) {

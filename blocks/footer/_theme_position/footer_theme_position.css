@@ -1,0 +1,10 @@
+.footer_theme_position {
+    margin-top: 92px;
+    margin-bottom: 24px;
+}
+
+@media (max-width: 768px) {
+    .footer_theme_position {
+        margin-top: calc(64px + 24 * ((100vw - 320px) / 448));
+    }
+}

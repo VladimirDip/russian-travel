@@ -1,3 +1,12 @@
+.intro__title {
+    font-family: "Inter", Arial, "sans-serif";
+    font-weight: 900;
+    line-height: calc(58 / 54 * 100%);
+    font-size: 54px;
+    padding: 0;
+    margin: 0;
+}
+
 @media (max-width: 768px) {
     .intro__title {
         font-size: calc(32px + 22 * ((100vw - 320px) / 448));

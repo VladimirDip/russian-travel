@@ -5,7 +5,8 @@
     justify-content: flex-end;
     align-items: flex-end;
 
-    font-family: "Inter Regular", "sans-serif";
+    font-family: "Inter", Arial, "sans-serif";
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.12;
 }
@@ -13,6 +14,12 @@
 @media (max-width: 768px) {
     .footer__copyright {
         line-height: calc(14px + 0 * ((100vw - 320px) / 448));
+    }
+}
+
+@media (max-width: 626px) {
+    .footer__copyright {
+        margin: 0;
     }
 }
 

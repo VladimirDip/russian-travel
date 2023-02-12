@@ -1,10 +1,10 @@
-.wrapper-outer__header {
+.header_theme_position {
     margin-top: 28px;
 }
 
 
 @media (max-width: 768px) {
-    .wrapper-outer__header {
+    .header_theme_position {
         margin-top: calc(16px + 12 * ((100vw - 320px) / 448));
     }
 }

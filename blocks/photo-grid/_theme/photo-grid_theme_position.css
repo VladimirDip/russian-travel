@@ -1,16 +1,15 @@
-.wrapper-outer__places {
+.photo-grid_theme_position {
     margin-top: 92px;
 }
 
 @media (max-width: 1024px) {
-
-    .wrapper-outer__places {
+    .photo-grid_theme_position {
         margin-top: calc(88px + 4 * ((100vw - 768px) / 256));
     }
 }
 
 @media (max-width: 768px) {
-    .wrapper-outer__places {
+    .photo-grid_theme_position {
         margin-top: calc(64px + 24 * ((100vw - 320px) / 448));
     }
 }
