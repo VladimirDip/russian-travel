@@ -1,10 +1,21 @@
 .footer_theme_position {
     margin-top: 92px;
     margin-bottom: 24px;
+    padding: 0 48px;
+}
+
+
+@media (max-width: 1024px) {
+    .footer_theme_position {
+        padding-right: calc(24px + 24 * ((100vw - 768px) / 256));
+        padding-left: calc(24px + 24 * ((100vw - 768px) / 256));
+    }
 }
 
 @media (max-width: 768px) {
     .footer_theme_position {
         margin-top: calc(64px + 24 * ((100vw - 320px) / 448));
+        padding-right: calc(16px + 8 * ((100vw - 320px) / 448));
+        padding-left: calc(16px + 8 * ((100vw - 320px) / 448));
     }
 }

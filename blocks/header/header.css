@@ -2,7 +2,7 @@
 
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: end;
     max-height: 52px;
     box-sizing: border-box;
 }

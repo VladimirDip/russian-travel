@@ -1,21 +1,23 @@
 .places_theme_position {
     margin-top: 92px;
-    /*padding-left: 100px;*/
-    /*padding-right: 100px;*/
+    padding-left: 148px;
+    padding-right: 148px;
 }
 
-/*@media (max-width: 1280px) {*/
-/*    .places_theme_position {*/
-/*        padding-left: calc(0px + 100 * ((100vw - 1024px) / 259));*/
-/*        padding-right: calc(0px + 100 * ((100vw - 1024px) / 259));*/
+@media (max-width: 1280px) {
+    .places_theme_position {
+        padding-left: calc(48px + 100 * ((100vw - 1024px) / 259));
+        padding-right: calc(48px + 100 * ((100vw - 1024px) / 259));
 
-/*    }*/
-/*}*/
+    }
+}
 
 @media (max-width: 1024px) {
 
     .places_theme_position {
         margin-top: calc(88px + 4 * ((100vw - 768px) / 256));
+        padding-right: calc(24px + 24 * ((100vw - 768px) / 256));
+        padding-left: calc(24px + 24 * ((100vw - 768px) / 256));
     }
 }
 

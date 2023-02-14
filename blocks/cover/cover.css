@@ -39,9 +39,6 @@
     .cover {
         min-height: calc(480px + 160 * ((100vw - 768px) / 256));
         box-sizing: border-box;
-        min-width: 100vw;
-        position: relative;
-        left: calc((24px + 24 * (100vw - 768px) / 256) / -1);
         width: 100%;
     }
 }
@@ -49,6 +46,5 @@
 @media (max-width: 768px) {
     .cover {
         min-height: calc(200px + 280 * ((100vw - 320px) / 448));
-        left: calc((16px + 8 * (100vw - 320px) / 448) / -1);
     }
 }

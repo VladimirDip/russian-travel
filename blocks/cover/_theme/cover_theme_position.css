@@ -1,5 +1,20 @@
 .cover_theme_position {
-    margin-top: 92px;
+    /*margin-top: 92px;*/
+    margin: 92px 48px 0;
+}
+
+@media (max-width: 1280px) {
+    .cover_theme_position {
+        margin-left: calc(0px + 48 * ((100vw - 1024px) / 256));
+        margin-right: calc(0px + 48 * ((100vw - 1024px) / 256));
+    }
+}
+
+@media (max-width: 1024px) {
+    .cover_theme_position {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 @media (max-width: 768px) {
