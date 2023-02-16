@@ -1,0 +1,8 @@
+.animation-links {
+    color: inherit;
+    opacity: 1;
+}
+
+.animation-links:hover {
+    opacity: .8;
+}

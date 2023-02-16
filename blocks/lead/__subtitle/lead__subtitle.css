@@ -20,5 +20,8 @@
         margin-bottom: calc(41px + 15 * ((100vw - 320px) / 448));
         font-size: calc(16px + 14 * (100vw - 320px) / 448);
         line-height: calc(20px + 16 * (100vw - 320px) / 448);
+        padding-right: calc(17px + 47 * (100vw - 320px) / 448);
+        padding-left: calc(17px + 47 * (100vw - 320px) / 448);
+
     }
 }

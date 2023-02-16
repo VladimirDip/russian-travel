@@ -6,13 +6,18 @@
 @import url('../blocks/page/__container/page__container.css');
 @import url('../blocks/page/__header/page__header.css');
 @import url('../blocks/page/__lead/page__lead.css');
+/*Animation-links*/
+@import url('../blocks/animation-links/animation-links.css');
+
 
 /*Header*/
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/_theme/header_theme_position.css');
 @import url('../blocks/header/__logo/header__logo.css');
 @import url('../blocks/header/__languages/header__languages.css');
+@import url('../blocks/header/__languages-link/header__languages-link.css');
 @import url('../blocks/header/__languages-link/_active/header__languages-link_active.css');
+@import url('../blocks/header/__link/header__link.css');
 /*Main*/
 @import url('../blocks/main/main.css');
 /*Lead*/
@@ -25,7 +30,7 @@
 @import url('../blocks/lead/__caption/lead__caption.css');
 /*Intro*/
 @import url('../blocks/intro/intro.css');
-@import url('../blocks/intro/_theme_position/intro_theme_position.css');
+@import url('../blocks/intro/_theme/intro_theme_position.css');
 @import url('../blocks/intro/__title/intro__title.css');
 @import url('../blocks/intro/__text/intro__text.css');
 @import url('../blocks/intro/__list/intro__list.css');
@@ -49,11 +54,12 @@
 @import url('../blocks/cover/cover.css');
 @import url('../blocks/cover/_theme/cover_theme_position.css');
 @import url('../blocks/cover/__link/cover__link.css');
+@import url('../blocks/cover/__text/cover__text.css');
 @import url('../blocks/cover/__title/cover__title.css');
 @import url('../blocks/cover/__subtitle/cover__subtitle.css');
 /*Footer*/
 @import url('../blocks/footer/footer.css');
-@import url('../blocks/footer/_theme_position/footer_theme_position.css');
+@import url('../blocks/footer/_theme/footer_theme_position.css');
 @import url('../blocks/footer/__items/footer__items.css');
 @import url('../blocks/footer/__link/footer__link.css');
 @import url('../blocks/footer/__copyright/footer__copyright.css');

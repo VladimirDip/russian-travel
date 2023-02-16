@@ -20,15 +20,13 @@
 
 @media (max-width: 768px) {
     .places__item {
-        display: grid;
         grid-template-columns: minmax(320px, 340px) minmax(240px, 352px);
         grid-template-rows: min-content min-content;
     }
 }
 
-@media (max-width: 626px) {
+@media (max-width: 700px) {
     .places__item {
-        display: grid;
         grid-template-columns: fit-content(460px);
         grid-template-rows: max-content;
         row-gap: 32px;

@@ -14,7 +14,7 @@
 
 @media (max-width: 1024px) {
     .lead_theme_position {
-        margin-top: calc(48px + 0 * ((100vw - 768px) / 256));
+        margin-top: 48px;
         padding-right: calc(0px + 48 * ((100vw - 768px) / 256));
         padding-left: calc(0px + 48 * ((100vw - 768px) / 256));
     }

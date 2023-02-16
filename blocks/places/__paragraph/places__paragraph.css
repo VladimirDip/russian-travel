@@ -17,15 +17,16 @@
 
 @media (max-width: 768px) {
     .places__paragraph {
+        font-size: 16px;
         padding-right: calc(16px - 16 * ((100vw - 320px) / 448));
         padding-left: calc(16px - 16 * ((100vw - 320px) / 448));
     }
 }
 
 @media (max-width: 320px) {
-    .places__paragraph {
-        font-size: 16px;
-    }
+    /*.places__paragraph {*/
+    /*    font-size: 16px;*/
+    /*}*/
 
     .places__paragraph:not(:last-of-type) {
         margin-bottom: 25px;

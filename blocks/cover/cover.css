@@ -1,3 +1,4 @@
+/*
 .cover {
     min-height: 740px;
     height: 100%;
@@ -47,4 +48,4 @@
     .cover {
         min-height: calc(200px + 280 * ((100vw - 320px) / 448));
     }
-}
+}*/
