@@ -4,7 +4,10 @@
     font-size: 18px;
     line-height: 1.222;
     color: #fff;
+    width: fit-content;
+
 }
+
 .places__link:hover {
     cursor: pointer;
 }

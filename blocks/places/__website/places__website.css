@@ -3,6 +3,7 @@
     flex-direction: column;
     gap: 12px 0;
     align-self: end;
+
     /*justify-content: space-between;*/
 }
 

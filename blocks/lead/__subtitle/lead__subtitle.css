@@ -16,7 +16,7 @@
 
 @media (max-width: 768px) {
     .lead__subtitle {
-        min-width: calc(288px + 352 * ((100vw - 320px) / 448));
+        max-width: calc(288px + 352 * ((100vw - 320px) / 448));
         margin-bottom: calc(41px + 15 * ((100vw - 320px) / 448));
         font-size: calc(16px + 14 * (100vw - 320px) / 448);
         line-height: calc(20px + 16 * (100vw - 320px) / 448);

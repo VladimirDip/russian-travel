@@ -10,7 +10,6 @@
 @media (max-width: 626px) {
     .footer__items {
         flex-direction: column;
-        list-style-type: none;
         align-items: start;
         gap: 32px 0;
     }
